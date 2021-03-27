@@ -1,0 +1,18 @@
+= Homebrew Yet Another AWS SSO 
+
+== Description
+
+For installing https://github.com/victorskl/yawsso[Yet Another AWS SSO] for syncing up a AWS CLI v2 SSO login session to legacy CLI v1 credentials.
+
+I created this formula because I prefer to install my tooling with Homebrew, not `pip`, as `pip` is unreliable when you have multiple `venvs`, blah blah blah you know the deal.
+
+Worth noting that `yawsso` is only required because of https://github.com/aws/aws-cdk/issues/5455[this issue] in the AWS CDK Project.   
+
+== Installation
+
+. `brew tap syncdk/yawsso`
+. `brew install yawsso`
+
+You can verify installation by running:
+
+`yawsso -h`
