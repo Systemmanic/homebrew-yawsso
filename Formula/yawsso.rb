@@ -3,8 +3,8 @@ class Yawsso < Formula
 
   desc "Yet Another AWS SSO - sync up AWS CLI v2 SSO login session to legacy CLI v1 credentials"
   homepage "https://github.com/victorskl/yawsso"
-  url "https://github.com/victorskl/yawsso/archive/refs/tags/0.6.2.tar.gz"
-  sha256 "e243f11b8e1aacee1c44abe3e011e601879269f6a5a3177dde336e15a1d0fa42"
+  url "https://github.com/victorskl/yawsso/archive/refs/tags/0.7.2.tar.gz"
+  sha256 "a2f665d12f1d29095a3a103d61638308ea4e2184bce5810ad80eeebddffcfb51"
 
   depends_on "python"
 
