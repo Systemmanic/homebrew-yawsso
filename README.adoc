@@ -10,7 +10,7 @@ Worth noting that `yawsso` is only required because of https://github.com/aws/aw
 
 == Installation
 
-. `brew tap syncdk/yawsso`
+. `brew tap systemmanic/yawsso`
 . `brew install yawsso`
 
 You can verify installation by running:
